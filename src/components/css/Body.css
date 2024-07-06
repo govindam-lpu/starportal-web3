@@ -1,0 +1,11 @@
+.body-container {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  
