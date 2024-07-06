@@ -87,6 +87,7 @@
   padding: 8px 12px;
   border-radius: 30px;
   font-size: 14px;
+  color: white;
 }
 
 .xp-icon {
@@ -119,7 +120,6 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
-  /* padding: 8px 0; */
   border-bottom: 1px solid #333;
   width: 456px;
   height: 97px;
@@ -132,10 +132,11 @@
 }
 
 .task-image {
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 80px;
   border-radius: 10px;
   margin-right: 15px;
+  margin-left: 15px;
 }
 
 .task-text {
@@ -147,7 +148,6 @@
   margin: 0;
   font-size: 1rem;
   color: white;
-  font-weight: 600;
 }
 
 .task-text p {
@@ -157,18 +157,32 @@
 }
 
 .task-progress {
-  width: 100%;
-  height: 6px;
+  width: 197px;
+  height: 14px;
   background-color: #333;
-  border-radius: 3px;
+  border-radius: 20px;
   overflow: hidden;
   margin-top: 5px;
   display: flex;
   align-items: center;
+  border: 1px solid black;
+  box-shadow: inset 0 4px 4px rgba(4, 4, 4, 0.2);
 }
 
 .task-progress-bar {
   height: 100%;
-  background-color: #4caf50; /* Adjust the color as needed */
+  background-color: #FFFFFF12; /* Adjust the color as needed */
   border-radius: 3px;
+}
+
+.task-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-check-icon {
+  font-size: 24px;
+  color: grey;
+  
 }

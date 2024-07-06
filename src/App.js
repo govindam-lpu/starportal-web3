@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Body from './components/Body';
 import './App.css';
 
+
 const App = () => {
   return (
     <div className="App">

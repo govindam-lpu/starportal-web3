@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './css/BasicsOfCrypto.css';
 import tasksData from '../tasksData.json';
+import { CiCircleCheck } from 'react-icons/ci'; // Import the icon
 
 const BasicsOfCrypto = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,13 +32,20 @@ const BasicsOfCrypto = () => {
       {isOpen && (
         <div className="card-dropdown-content">
           <div className="tasks-container">
-            {tasksData.map((task) => (
-              <div key={task.id} className="task-item">
-                <img src={task.image} alt={`Task ${task.id}`} className="task-image" />
+            {tasksData.map(task => (
+              <div className="task-item" key={task.id}>
+                <img src={task.image} alt="img" className="task-image" />
                 <div className="task-text">
-                  <h4>#{task.id}: {task.title}</h4>
-                  <p>{task.tasks} Tasks</p>
-                  <div className="task-progress"></div>
+                  <h4>
+                    {`#${task.id}: ${task.title}`}
+                  </h4>
+                  <div className="task-progress">
+                    <div className="task-progress-bar" style={{ width: `${task.progress}%` }}></div>
+                  </div>
+                  <div className="task-meta">
+                    <p>{`${task.tasks} Tasks`}</p>
+                    <CiCircleCheck className="task-check-icon" />
+                  </div>
                 </div>
               </div>
             ))}
