@@ -3,6 +3,7 @@ import BasicsOfCrypto from './BasicsOfCrypto';
 import Learner from './Learner';
 import IntrotoAirdrops from './IntrotoAirdrops';
 import Earner from './Earner';
+import Reward from './Reward';
 import './css/Body.css';
 
 const Body = () => {
@@ -19,6 +20,9 @@ const Body = () => {
       </div>
       <div className="earner-container">
         <Earner />
+      </div>
+      <div className="reward-container">
+        <Reward />
       </div>
     </div>
   );
