@@ -5,18 +5,95 @@
   padding: 20px;
   gap: 50px;
   position: relative;
-  height: 100vh;
   background-color: black;
+  min-height: 100vh;
 }
 
 .basics-container {
   position: absolute;
   top: 1%;
-  left: 1%;
+  left: 11%;
 }
 
 .learner-container {
-  position: absolute;
-  top: 30%;
-  right: 25%;
+  display: flex;
+  margin-top: 15%;
+  margin-left: 35%;
+}
+
+.intro-container {
+  display: flex;
+  margin-left: 15%;
+}
+
+.earner-container {
+  display: flex;
+  margin-right: 90%;
+}
+
+@media (max-width: 1024px) {
+  .body-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    position: relative;
+    background-color: black;
+    min-height: 100vh;
+  }
+
+  .basics-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .learner-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .basics-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .learner-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    margin-right: 100%;
+  }
+
+  .intro-container {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+  }
+  .earner-container {
+    position: static;
+    display: flex;
+    margin-left: 20%;
+  }
 }

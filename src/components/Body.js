@@ -1,6 +1,8 @@
 import React from 'react';
 import BasicsOfCrypto from './BasicsOfCrypto';
 import Learner from './Learner';
+import IntrotoAirdrops from './IntrotoAirdrops';
+import Earner from './Earner';
 import './css/Body.css';
 
 const Body = () => {
@@ -11,6 +13,12 @@ const Body = () => {
       </div>
       <div className="learner-container">
         <Learner />
+      </div>
+      <div className="intro-container">
+        <IntrotoAirdrops />
+      </div>
+      <div className="earner-container">
+        <Earner />
       </div>
     </div>
   );
