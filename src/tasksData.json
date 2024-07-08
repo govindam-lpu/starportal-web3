@@ -3,42 +3,42 @@
       "id": 1,
       "title": "But what is crypto and...",
       "tasks": 11,
-      "image": "/public/image1.png",
+      "image": "/image1.png",
       "progress": 100
     },
     {
       "id": 2,
       "title": "Setting up your own we...",
       "tasks": 8,
-      "image": "/public/image2.jpg",
+      "image": "/image2.jpg",
       "progress": 100
     },
     {
       "id": 3,
       "title": "What the heck is a...",
       "tasks": 8,
-      "image": "/public/image3.jpg",
+      "image": "/image3.jpg",
       "progress": 100
     },
     {
       "id": 4,
       "title": "Swapping and bridging...",
       "tasks": 10,
-      "image": "/public/image4.jpg",
+      "image": "/image4.jpg",
       "progress": 100
     },
     {
       "id": 5,
       "title": "NFTs and why they're...",
       "tasks": 6,
-      "image": "/public/image5.jpg",
+      "image": "/image5.jpg",
       "progress": 100
     },
     {
       "id": 6,
       "title": "Doing quests and winni...",
       "tasks": 8,
-      "image": "/public/image6.jpg",
+      "image": "/image6.jpg",
       "progress": 100
     }
   ]

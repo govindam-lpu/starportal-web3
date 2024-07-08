@@ -186,3 +186,9 @@
   color: grey;
   
 }
+
+.dotted-line1 {
+  border-top: 2px dashed #5f5d5d99;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

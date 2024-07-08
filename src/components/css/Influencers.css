@@ -1,0 +1,67 @@
+.influencers-container {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #000; 
+    color: #fff;
+    border-top: 2px solid #5f5d5d99;
+  }
+
+  .influencers-container p{
+    color: grey;
+    margin-top: -10px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 30px 150px;
+    gap: 15px;
+  }
+  
+  .influencer-card {
+    position: relative;
+    width: 250px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .influencer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image2 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    display: none;
+  }
+  
+  .influencer-card:hover .play-button {
+    display: block;
+  }
+  

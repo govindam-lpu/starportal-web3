@@ -66,7 +66,7 @@
 }
 
 .dotted-line {
-  border-top: 2px dotted #5f5d5d99;
+  border-top: 2px dashed #5f5d5d99;
 }
 
 .timer {

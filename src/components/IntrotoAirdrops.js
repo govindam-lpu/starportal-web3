@@ -21,7 +21,8 @@ const IntrotoAirdrops = () => {
         <div className="card-text1">
           <h3>Introduction to Airdrops</h3>
           <p>Your best bet to make it big in crypto!</p>
-          <p>---------------------------------------</p>
+          {/* <p>---------------------------------------</p> */}
+          <div className="dotted-line1"></div>
           <div className="xp-container1">
             <div className="xp-icon1"></div>
             <span>1040 XPs</span>

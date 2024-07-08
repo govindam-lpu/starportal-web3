@@ -21,7 +21,8 @@ const BasicsOfCrypto = () => {
         <div className="card-text">
           <h3>Basics of Crypto</h3>
           <p>The safest and easiest place to start your crypto journey!</p>
-          <p>---------------------------------------</p>
+          {/* <p>---------------------------------------</p> */}
+          <div className="dotted-line1"></div>
           <div className="xp-container">
             <div className="xp-icon"></div>
             <span>1490 XPs</span>
