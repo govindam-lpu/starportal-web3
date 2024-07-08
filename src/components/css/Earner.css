@@ -3,11 +3,11 @@
 .learner-card1 {
   border-radius: 30px;
   padding: 24px;
-  width: 280px; /* Adjusted width */
+  width: 280px;
   margin: 20px 0;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative; /* Added for positioning the icons */
+  position: relative; 
   text-align: center;
   transform: translateX(50%);
 }
@@ -27,8 +27,8 @@
 }
 
 .learner-image-frame1 {
-  width: 157px;
-  height: 177px;
+  width: 137px;
+  height: 157px;
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
@@ -66,7 +66,7 @@
 
 .learner-text1 h3 {
   margin: 0;
-  font-size: 1.2rem; /* Adjusted font size */
+  font-size: 1.2rem;  
 }
 
 .learner-text1 p {
@@ -89,5 +89,5 @@
 
 .claim-button1:disabled {
   cursor: no-drop;
-  background-color: ##ffffff33;
+  background-color: #ffffff33;
 }

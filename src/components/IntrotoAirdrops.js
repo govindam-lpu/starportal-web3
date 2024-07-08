@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './css/IntrotoAirdrops.css';
 import tasksData from '../tasksData1.json';
-import { CiCircleCheck } from 'react-icons/ci'; // Import the icon
+import { CiCircleCheck } from 'react-icons/ci';  
 
 const IntrotoAirdrops = () => {
   const [isOpen, setIsOpen] = useState(false);

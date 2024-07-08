@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './css/BasicsOfCrypto.css';
 import tasksData from '../tasksData.json';
-import { CiCircleCheck } from 'react-icons/ci'; // Import the icon
+import { CiCircleCheck } from 'react-icons/ci'; 
 
 const BasicsOfCrypto = () => {
   const [isOpen, setIsOpen] = useState(false);

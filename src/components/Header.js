@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './css/Header.css';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo">intract.</div>
-        <nav>
+        <nav className={isMenuOpen ? 'nav-open' : ''}>
           <ul>
             <li>Compass</li>
             <li>Explore</li>
@@ -21,6 +27,11 @@ const Header = () => {
           <input type="text" placeholder="Search for ecosystems, trending quests etc.," />
           <div className="icon"></div>
           <button>Sign In</button>
+        </div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
       </div>
     </header>

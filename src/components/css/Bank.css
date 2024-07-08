@@ -22,7 +22,7 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    max-width: 1178px; /* Ensure it's responsive */
+    max-width: 1178px; 
     width: 100%;
   }
   
