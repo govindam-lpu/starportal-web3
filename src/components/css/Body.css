@@ -9,6 +9,7 @@
   min-height: 100vh; 
   background: url(/public/bg.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .basics-container {
