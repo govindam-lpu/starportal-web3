@@ -12,6 +12,13 @@
   background-repeat: no-repeat;
 }
 
+@media (min-width: 1600px){
+  .body-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .basics-container {
   position: absolute;
   top: 1%;
